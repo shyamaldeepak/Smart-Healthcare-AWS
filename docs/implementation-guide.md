@@ -63,3 +63,7 @@ Recommended visual tiles:
 4. Refresh the Glue crawler.
 5. Execute the Athena queries.
 6. Present the dashboard metrics and summarize findings.
+
+## 7. Deployment checklist
+
+Use [docs/deployment-checklist.md](deployment-checklist.md) to verify the AWS setup before presenting the project.
