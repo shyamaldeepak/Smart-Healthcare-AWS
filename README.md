@@ -15,6 +15,30 @@ The pipeline follows a simple hospital-analytics story:
 
 The repository includes both the cloud-oriented artifacts and local sample outputs so the project can be understood and demonstrated even without live AWS resources.
 
+## Architecture Flow
+
+```mermaid
+flowchart LR
+	A[Synthetic patient and IoT data] --> B[Bronze zone in S3]
+	B --> C[Glue crawler]
+	C --> D[Glue ETL job]
+	D --> E[Silver zone in S3]
+	E --> F[Gold KPI tables]
+	F --> G[Athena queries]
+	F --> H[QuickSight or OpenSearch dashboards]
+	G --> H
+```
+
+This is the full movement of data through the project:
+
+- raw records start as synthetic CSV or JSON files
+- bronze stores the unprocessed source data
+- Glue discovers the schema and prepares the data for analytics
+- silver stores cleaned, typed, and partitioned records
+- gold stores the final KPI tables for dashboards
+- Athena runs SQL over the curated data
+- dashboards turn the results into simple operational views
+
 ## End-to-End Flow
 
 ### 1. Data generation
@@ -27,9 +51,22 @@ The generator script creates three synthetic datasets:
 
 These records are intentionally anonymized and deterministic so the project is safe to share and easy to reproduce.
 
+What happens here:
+
+- the generator creates repeatable sample patients
+- the generator creates clinical events with wait time, occupancy, and vital-sign values
+- the generator creates IoT readings for monitoring use cases
+- the local sample files are written into the `data/` folder
+
 ### 2. Bronze zone
 
 Raw CSV and JSON files land in the bronze zone first. This layer preserves source records with minimal processing.
+
+What happens here:
+
+- the raw files are uploaded to S3 without transformation
+- the bronze zone acts as the system of record for the input data
+- this keeps the original files available for debugging or reprocessing
 
 ### 3. Glue ingestion and ETL
 
@@ -41,6 +78,13 @@ The Glue crawler discovers schemas from the bronze files and publishes them to t
 - writes partitioned Parquet into the silver zone
 - creates gold-zone KPI tables for reporting
 
+What happens here:
+
+- the crawler identifies columns and data types automatically
+- the ETL job cleans the input rows so Athena can query them reliably
+- partitioning by date and department makes queries faster and easier to organize
+- the gold zone becomes the clean source used by the dashboard
+
 ### 4. Analytics layer
 
 Athena reads the cataloged datasets and computes operational metrics such as:
@@ -50,9 +94,57 @@ Athena reads the cataloged datasets and computes operational metrics such as:
 - occupancy pressure
 - alert conditions for long queues
 
+What happens here:
+
+- SQL is used instead of application code for most reporting logic
+- the same curated data can support multiple questions and reports
+- the queries are easy to show in a lab, demo, or final presentation
+
 ### 5. Visualization and reporting
 
 The gold-zone KPIs are ready for QuickSight or OpenSearch Dashboards. The sample documentation in this repo shows how to interpret those metrics and which tiles should appear on the dashboard.
+
+What happens here:
+
+- dashboard cards show the most important numbers first
+- charts show trends over time and differences between departments
+- alert views help staff focus on the departments with the longest waits
+
+## Step-by-Step Project Walkthrough
+
+Use this section when you want to explain the whole project from start to finish.
+
+### Step 1: Create synthetic healthcare data
+
+Run the generator script to create fake but realistic patient and IoT data. This makes the project privacy-safe and reproducible.
+
+### Step 2: Save raw files in the bronze layer
+
+The raw files are placed in S3 bronze storage so the project keeps an untouched copy of the input records.
+
+### Step 3: Discover the schema with Glue
+
+The Glue crawler scans the bronze data and registers the columns in the Glue Data Catalog. This is what lets Athena understand the tables.
+
+### Step 4: Transform the data with Glue ETL
+
+The Glue job cleans the clinical events, removes duplicates, converts the schema, and writes Parquet output into silver and gold zones.
+
+### Step 5: Query the results in Athena
+
+The Athena SQL files calculate wait-time trends, occupancy rates, and departmental workload. This is the analytics layer of the project.
+
+### Step 6: Show the results in a dashboard
+
+The dashboard turns the KPIs into simple visuals that hospital staff can understand quickly.
+
+### Step 7: Review the sample report and insights
+
+The supporting docs explain the metrics, the sample findings, and the optional AI extension.
+
+### Step 8: Present the cloud version
+
+For the AWS version, the same flow is repeated in the cloud using S3, Glue, Athena, and dashboard tools.
 
 ## Repository Contents
 
