@@ -51,6 +51,19 @@ The silver layer keeps the same clinical event structure after cleansing and typ
 - count
 - wait_total
 
+## Naming and Partitioning
+
+- bronze files are uploaded as-is from the generator
+- silver files use cleaned record names and typed columns
+- gold files use KPI-oriented names for dashboard consumption
+- event data is partitioned by `event_date` and `department` in the Glue job
+
+## Table Conventions
+
+- Athena tables should mirror the Gold and Silver zone schemas
+- Glue Catalog names should stay lowercase and use underscores
+- dashboard visuals should reference the gold zone for stable metrics
+
 ## Analytics Notes
 
 The gold zone is the source of truth for dashboard visualizations and Athena summary queries.
