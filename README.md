@@ -18,6 +18,7 @@ The solution models a smart-hospital analytics pipeline on AWS Free Tier service
 - [Data Model](docs/data-model.md)
 - [Implementation Guide](docs/implementation-guide.md)
 - [Dashboard Summary](docs/dashboard-summary.md)
+- [Sample Insights](docs/sample-insights.md)
 - [Technical Report](docs/technical-report.md)
 - [Optional AI Extension](docs/ai-extension.md)
 - [Synthetic Data Generator](scripts/generate_synthetic_healthcare_data.py)
