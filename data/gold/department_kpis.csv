@@ -1,0 +1,6 @@
+department,encounters,avg_wait_minutes,avg_occupancy_pct
+Cardiology,140,89.58,69.37
+Emergency,154,90.77,71.96
+ICU,126,89.95,68.75
+Outpatient,210,95.54,67.24
+Radiology,210,95.11,69.56

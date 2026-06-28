@@ -1,0 +1,280 @@
+reading_id,event_date,patient_id,device_type,reading_value,unit
+R00001,2026-01-01,P0003,Heart Rate Monitor,70.4,bpm
+R00002,2026-01-01,P0010,Thermometer,70.7,c
+R00003,2026-01-01,P0013,Pulse Oximeter,44.3,c
+R00004,2026-01-01,P0015,Heart Rate Monitor,45.9,bpm
+R00005,2026-01-01,P0019,Pulse Oximeter,95.7,c
+R00006,2026-01-01,P0020,Heart Rate Monitor,53.9,bpm
+R00007,2026-01-01,P0022,Heart Rate Monitor,66.7,bpm
+R00008,2026-01-01,P0023,Blood Pressure Cuff,37.6,c
+R00009,2026-01-01,P0029,Pulse Oximeter,57.0,c
+R00010,2026-01-01,P0031,Blood Pressure Cuff,63.9,c
+R00011,2026-01-01,P0036,Blood Pressure Cuff,92.2,c
+R00012,2026-01-01,P0040,Blood Pressure Cuff,61.8,c
+R00013,2026-01-01,P0045,Heart Rate Monitor,88.3,bpm
+R00014,2026-01-01,P0046,Thermometer,94.8,c
+R00015,2026-01-01,P0048,Heart Rate Monitor,73.5,bpm
+R00016,2026-01-01,P0049,Blood Pressure Cuff,73.8,c
+R00017,2026-01-01,P0050,Thermometer,81.1,c
+R00018,2026-01-01,P0053,Heart Rate Monitor,93.2,bpm
+R00019,2026-01-01,P0055,Thermometer,83.4,c
+R00020,2026-01-01,P0056,Blood Pressure Cuff,91.2,c
+R00021,2026-01-01,P0059,Heart Rate Monitor,100.9,bpm
+R00022,2026-01-02,P0001,Pulse Oximeter,96.2,c
+R00023,2026-01-02,P0003,Heart Rate Monitor,78.9,bpm
+R00024,2026-01-02,P0008,Pulse Oximeter,59.6,c
+R00025,2026-01-02,P0009,Blood Pressure Cuff,72.3,c
+R00026,2026-01-02,P0010,Heart Rate Monitor,58.6,bpm
+R00027,2026-01-02,P0023,Thermometer,70.9,c
+R00028,2026-01-02,P0024,Thermometer,56.4,c
+R00029,2026-01-02,P0025,Pulse Oximeter,67.8,c
+R00030,2026-01-02,P0027,Thermometer,71.7,c
+R00031,2026-01-02,P0028,Blood Pressure Cuff,99.5,c
+R00032,2026-01-02,P0034,Heart Rate Monitor,86.0,bpm
+R00033,2026-01-02,P0035,Heart Rate Monitor,78.6,bpm
+R00034,2026-01-02,P0038,Blood Pressure Cuff,52.4,c
+R00035,2026-01-02,P0047,Thermometer,95.5,c
+R00036,2026-01-02,P0048,Heart Rate Monitor,82.9,bpm
+R00037,2026-01-02,P0053,Blood Pressure Cuff,42.3,c
+R00038,2026-01-02,P0056,Pulse Oximeter,42.4,c
+R00039,2026-01-02,P0060,Heart Rate Monitor,100.8,bpm
+R00040,2026-01-03,P0003,Thermometer,93.5,c
+R00041,2026-01-03,P0007,Blood Pressure Cuff,86.8,c
+R00042,2026-01-03,P0009,Thermometer,75.9,c
+R00043,2026-01-03,P0011,Blood Pressure Cuff,52.7,c
+R00044,2026-01-03,P0013,Blood Pressure Cuff,54.9,c
+R00045,2026-01-03,P0016,Blood Pressure Cuff,67.9,c
+R00046,2026-01-03,P0017,Blood Pressure Cuff,45.0,c
+R00047,2026-01-03,P0018,Blood Pressure Cuff,69.2,c
+R00048,2026-01-03,P0020,Heart Rate Monitor,94.9,bpm
+R00049,2026-01-03,P0024,Thermometer,95.0,c
+R00050,2026-01-03,P0026,Pulse Oximeter,79.2,c
+R00051,2026-01-03,P0027,Thermometer,71.4,c
+R00052,2026-01-03,P0028,Pulse Oximeter,72.5,c
+R00053,2026-01-03,P0029,Pulse Oximeter,44.3,c
+R00054,2026-01-03,P0031,Blood Pressure Cuff,88.3,c
+R00055,2026-01-03,P0039,Thermometer,70.8,c
+R00056,2026-01-03,P0040,Heart Rate Monitor,77.7,bpm
+R00057,2026-01-03,P0042,Thermometer,94.8,c
+R00058,2026-01-03,P0051,Pulse Oximeter,63.4,c
+R00059,2026-01-03,P0052,Pulse Oximeter,52.7,c
+R00060,2026-01-03,P0053,Thermometer,86.5,c
+R00061,2026-01-04,P0004,Pulse Oximeter,61.5,c
+R00062,2026-01-04,P0006,Blood Pressure Cuff,63.6,c
+R00063,2026-01-04,P0010,Heart Rate Monitor,36.1,bpm
+R00064,2026-01-04,P0012,Thermometer,99.0,c
+R00065,2026-01-04,P0013,Thermometer,49.6,c
+R00066,2026-01-04,P0023,Pulse Oximeter,40.4,c
+R00067,2026-01-04,P0028,Blood Pressure Cuff,87.1,c
+R00068,2026-01-04,P0034,Heart Rate Monitor,60.5,bpm
+R00069,2026-01-04,P0037,Thermometer,76.5,c
+R00070,2026-01-04,P0040,Heart Rate Monitor,60.0,bpm
+R00071,2026-01-04,P0041,Thermometer,96.9,c
+R00072,2026-01-04,P0044,Pulse Oximeter,58.6,c
+R00073,2026-01-04,P0045,Pulse Oximeter,84.8,c
+R00074,2026-01-04,P0046,Thermometer,99.1,c
+R00075,2026-01-04,P0048,Heart Rate Monitor,73.6,bpm
+R00076,2026-01-04,P0049,Blood Pressure Cuff,75.3,c
+R00077,2026-01-04,P0052,Pulse Oximeter,84.2,c
+R00078,2026-01-04,P0056,Heart Rate Monitor,66.9,bpm
+R00079,2026-01-04,P0058,Blood Pressure Cuff,68.7,c
+R00080,2026-01-04,P0059,Heart Rate Monitor,59.8,bpm
+R00081,2026-01-04,P0060,Heart Rate Monitor,97.6,bpm
+R00082,2026-01-05,P0002,Pulse Oximeter,76.0,c
+R00083,2026-01-05,P0006,Pulse Oximeter,98.6,c
+R00084,2026-01-05,P0008,Pulse Oximeter,59.0,c
+R00085,2026-01-05,P0023,Pulse Oximeter,73.8,c
+R00086,2026-01-05,P0024,Blood Pressure Cuff,41.9,c
+R00087,2026-01-05,P0026,Thermometer,90.4,c
+R00088,2026-01-05,P0031,Pulse Oximeter,84.3,c
+R00089,2026-01-05,P0038,Heart Rate Monitor,100.7,bpm
+R00090,2026-01-05,P0045,Blood Pressure Cuff,93.9,c
+R00091,2026-01-05,P0048,Pulse Oximeter,58.3,c
+R00092,2026-01-05,P0049,Pulse Oximeter,88.5,c
+R00093,2026-01-05,P0055,Pulse Oximeter,37.9,c
+R00094,2026-01-05,P0056,Heart Rate Monitor,44.8,bpm
+R00095,2026-01-05,P0058,Thermometer,97.0,c
+R00096,2026-01-06,P0002,Pulse Oximeter,55.3,c
+R00097,2026-01-06,P0003,Pulse Oximeter,68.0,c
+R00098,2026-01-06,P0005,Heart Rate Monitor,40.9,bpm
+R00099,2026-01-06,P0014,Heart Rate Monitor,39.0,bpm
+R00100,2026-01-06,P0015,Pulse Oximeter,85.9,c
+R00101,2026-01-06,P0019,Blood Pressure Cuff,72.5,c
+R00102,2026-01-06,P0021,Blood Pressure Cuff,78.8,c
+R00103,2026-01-06,P0022,Blood Pressure Cuff,101.0,c
+R00104,2026-01-06,P0023,Blood Pressure Cuff,64.8,c
+R00105,2026-01-06,P0024,Pulse Oximeter,62.9,c
+R00106,2026-01-06,P0028,Blood Pressure Cuff,88.9,c
+R00107,2026-01-06,P0033,Thermometer,90.0,c
+R00108,2026-01-06,P0039,Pulse Oximeter,44.0,c
+R00109,2026-01-06,P0041,Thermometer,53.0,c
+R00110,2026-01-06,P0043,Blood Pressure Cuff,41.7,c
+R00111,2026-01-06,P0045,Blood Pressure Cuff,69.0,c
+R00112,2026-01-06,P0046,Pulse Oximeter,93.7,c
+R00113,2026-01-06,P0048,Blood Pressure Cuff,66.4,c
+R00114,2026-01-06,P0053,Pulse Oximeter,97.6,c
+R00115,2026-01-06,P0057,Pulse Oximeter,36.2,c
+R00116,2026-01-06,P0060,Blood Pressure Cuff,59.1,c
+R00117,2026-01-07,P0004,Thermometer,37.7,c
+R00118,2026-01-07,P0005,Pulse Oximeter,100.0,c
+R00119,2026-01-07,P0007,Heart Rate Monitor,89.6,bpm
+R00120,2026-01-07,P0009,Pulse Oximeter,82.9,c
+R00121,2026-01-07,P0011,Blood Pressure Cuff,67.5,c
+R00122,2026-01-07,P0012,Thermometer,36.8,c
+R00123,2026-01-07,P0017,Thermometer,67.9,c
+R00124,2026-01-07,P0019,Blood Pressure Cuff,60.1,c
+R00125,2026-01-07,P0020,Pulse Oximeter,61.9,c
+R00126,2026-01-07,P0023,Thermometer,65.0,c
+R00127,2026-01-07,P0027,Heart Rate Monitor,92.2,bpm
+R00128,2026-01-07,P0028,Blood Pressure Cuff,64.6,c
+R00129,2026-01-07,P0032,Pulse Oximeter,84.0,c
+R00130,2026-01-07,P0043,Blood Pressure Cuff,91.5,c
+R00131,2026-01-07,P0050,Thermometer,42.2,c
+R00132,2026-01-07,P0054,Blood Pressure Cuff,89.1,c
+R00133,2026-01-07,P0057,Pulse Oximeter,67.4,c
+R00134,2026-01-07,P0058,Blood Pressure Cuff,37.0,c
+R00135,2026-01-08,P0003,Thermometer,62.5,c
+R00136,2026-01-08,P0008,Pulse Oximeter,90.3,c
+R00137,2026-01-08,P0010,Heart Rate Monitor,82.8,bpm
+R00138,2026-01-08,P0011,Thermometer,54.5,c
+R00139,2026-01-08,P0012,Heart Rate Monitor,98.0,bpm
+R00140,2026-01-08,P0018,Pulse Oximeter,98.8,c
+R00141,2026-01-08,P0023,Pulse Oximeter,83.6,c
+R00142,2026-01-08,P0024,Heart Rate Monitor,94.7,bpm
+R00143,2026-01-08,P0027,Blood Pressure Cuff,42.8,c
+R00144,2026-01-08,P0036,Heart Rate Monitor,82.0,bpm
+R00145,2026-01-08,P0038,Thermometer,38.7,c
+R00146,2026-01-08,P0039,Blood Pressure Cuff,101.5,c
+R00147,2026-01-08,P0041,Heart Rate Monitor,81.4,bpm
+R00148,2026-01-08,P0044,Blood Pressure Cuff,54.8,c
+R00149,2026-01-08,P0048,Thermometer,89.1,c
+R00150,2026-01-08,P0051,Blood Pressure Cuff,99.4,c
+R00151,2026-01-08,P0058,Thermometer,93.4,c
+R00152,2026-01-08,P0059,Pulse Oximeter,94.6,c
+R00153,2026-01-09,P0002,Heart Rate Monitor,82.8,bpm
+R00154,2026-01-09,P0017,Thermometer,97.9,c
+R00155,2026-01-09,P0019,Pulse Oximeter,84.9,c
+R00156,2026-01-09,P0020,Thermometer,46.1,c
+R00157,2026-01-09,P0022,Pulse Oximeter,53.8,c
+R00158,2026-01-09,P0024,Heart Rate Monitor,40.8,bpm
+R00159,2026-01-09,P0026,Blood Pressure Cuff,99.2,c
+R00160,2026-01-09,P0027,Heart Rate Monitor,82.0,bpm
+R00161,2026-01-09,P0029,Blood Pressure Cuff,51.2,c
+R00162,2026-01-09,P0030,Blood Pressure Cuff,39.0,c
+R00163,2026-01-09,P0034,Blood Pressure Cuff,85.0,c
+R00164,2026-01-09,P0036,Pulse Oximeter,50.5,c
+R00165,2026-01-09,P0038,Heart Rate Monitor,94.9,bpm
+R00166,2026-01-09,P0039,Thermometer,61.4,c
+R00167,2026-01-09,P0044,Blood Pressure Cuff,36.7,c
+R00168,2026-01-09,P0045,Blood Pressure Cuff,90.7,c
+R00169,2026-01-09,P0046,Pulse Oximeter,72.7,c
+R00170,2026-01-09,P0048,Heart Rate Monitor,76.0,bpm
+R00171,2026-01-09,P0050,Pulse Oximeter,82.3,c
+R00172,2026-01-09,P0053,Blood Pressure Cuff,77.9,c
+R00173,2026-01-09,P0055,Pulse Oximeter,64.6,c
+R00174,2026-01-09,P0057,Heart Rate Monitor,93.7,bpm
+R00175,2026-01-09,P0059,Blood Pressure Cuff,93.9,c
+R00176,2026-01-10,P0002,Blood Pressure Cuff,42.1,c
+R00177,2026-01-10,P0003,Thermometer,47.1,c
+R00178,2026-01-10,P0004,Thermometer,56.5,c
+R00179,2026-01-10,P0006,Thermometer,65.4,c
+R00180,2026-01-10,P0008,Heart Rate Monitor,57.4,bpm
+R00181,2026-01-10,P0009,Thermometer,85.4,c
+R00182,2026-01-10,P0012,Pulse Oximeter,38.3,c
+R00183,2026-01-10,P0016,Pulse Oximeter,80.8,c
+R00184,2026-01-10,P0018,Thermometer,49.8,c
+R00185,2026-01-10,P0019,Pulse Oximeter,81.5,c
+R00186,2026-01-10,P0020,Blood Pressure Cuff,74.2,c
+R00187,2026-01-10,P0022,Heart Rate Monitor,70.8,bpm
+R00188,2026-01-10,P0025,Pulse Oximeter,83.0,c
+R00189,2026-01-10,P0026,Thermometer,62.4,c
+R00190,2026-01-10,P0031,Thermometer,40.4,c
+R00191,2026-01-10,P0032,Blood Pressure Cuff,72.7,c
+R00192,2026-01-10,P0033,Heart Rate Monitor,41.1,bpm
+R00193,2026-01-10,P0035,Blood Pressure Cuff,49.3,c
+R00194,2026-01-10,P0036,Heart Rate Monitor,47.0,bpm
+R00195,2026-01-10,P0042,Pulse Oximeter,38.8,c
+R00196,2026-01-10,P0048,Thermometer,63.0,c
+R00197,2026-01-10,P0049,Pulse Oximeter,89.1,c
+R00198,2026-01-10,P0051,Heart Rate Monitor,74.9,bpm
+R00199,2026-01-10,P0053,Heart Rate Monitor,91.6,bpm
+R00200,2026-01-10,P0054,Blood Pressure Cuff,85.6,c
+R00201,2026-01-10,P0055,Thermometer,50.4,c
+R00202,2026-01-10,P0056,Pulse Oximeter,67.7,c
+R00203,2026-01-11,P0002,Blood Pressure Cuff,93.1,c
+R00204,2026-01-11,P0004,Pulse Oximeter,86.1,c
+R00205,2026-01-11,P0007,Thermometer,93.6,c
+R00206,2026-01-11,P0008,Heart Rate Monitor,97.3,bpm
+R00207,2026-01-11,P0009,Thermometer,41.0,c
+R00208,2026-01-11,P0012,Thermometer,66.4,c
+R00209,2026-01-11,P0018,Heart Rate Monitor,68.5,bpm
+R00210,2026-01-11,P0020,Thermometer,49.9,c
+R00211,2026-01-11,P0026,Pulse Oximeter,36.1,c
+R00212,2026-01-11,P0029,Blood Pressure Cuff,38.9,c
+R00213,2026-01-11,P0030,Pulse Oximeter,37.2,c
+R00214,2026-01-11,P0038,Blood Pressure Cuff,61.5,c
+R00215,2026-01-11,P0040,Thermometer,51.3,c
+R00216,2026-01-11,P0041,Thermometer,64.5,c
+R00217,2026-01-11,P0043,Pulse Oximeter,70.8,c
+R00218,2026-01-11,P0045,Blood Pressure Cuff,69.2,c
+R00219,2026-01-11,P0048,Thermometer,95.5,c
+R00220,2026-01-11,P0052,Blood Pressure Cuff,82.1,c
+R00221,2026-01-11,P0055,Heart Rate Monitor,52.3,bpm
+R00222,2026-01-11,P0056,Thermometer,97.0,c
+R00223,2026-01-12,P0002,Heart Rate Monitor,59.8,bpm
+R00224,2026-01-12,P0006,Thermometer,68.2,c
+R00225,2026-01-12,P0007,Heart Rate Monitor,57.1,bpm
+R00226,2026-01-12,P0008,Blood Pressure Cuff,62.2,c
+R00227,2026-01-12,P0010,Heart Rate Monitor,73.2,bpm
+R00228,2026-01-12,P0011,Blood Pressure Cuff,45.0,c
+R00229,2026-01-12,P0012,Pulse Oximeter,60.4,c
+R00230,2026-01-12,P0016,Blood Pressure Cuff,49.8,c
+R00231,2026-01-12,P0017,Thermometer,88.3,c
+R00232,2026-01-12,P0019,Pulse Oximeter,47.8,c
+R00233,2026-01-12,P0020,Heart Rate Monitor,98.1,bpm
+R00234,2026-01-12,P0023,Heart Rate Monitor,101.2,bpm
+R00235,2026-01-12,P0027,Blood Pressure Cuff,36.0,c
+R00236,2026-01-12,P0036,Thermometer,47.4,c
+R00237,2026-01-12,P0039,Pulse Oximeter,75.6,c
+R00238,2026-01-12,P0043,Pulse Oximeter,83.6,c
+R00239,2026-01-12,P0048,Heart Rate Monitor,77.9,bpm
+R00240,2026-01-12,P0049,Heart Rate Monitor,53.0,bpm
+R00241,2026-01-12,P0052,Pulse Oximeter,81.6,c
+R00242,2026-01-12,P0057,Blood Pressure Cuff,59.7,c
+R00243,2026-01-12,P0058,Pulse Oximeter,87.2,c
+R00244,2026-01-13,P0005,Pulse Oximeter,67.6,c
+R00245,2026-01-13,P0007,Thermometer,61.3,c
+R00246,2026-01-13,P0010,Heart Rate Monitor,78.6,bpm
+R00247,2026-01-13,P0012,Pulse Oximeter,37.4,c
+R00248,2026-01-13,P0016,Pulse Oximeter,56.7,c
+R00249,2026-01-13,P0018,Blood Pressure Cuff,52.5,c
+R00250,2026-01-13,P0019,Blood Pressure Cuff,99.5,c
+R00251,2026-01-13,P0029,Heart Rate Monitor,101.3,bpm
+R00252,2026-01-13,P0032,Pulse Oximeter,67.1,c
+R00253,2026-01-13,P0037,Blood Pressure Cuff,62.2,c
+R00254,2026-01-13,P0038,Heart Rate Monitor,70.7,bpm
+R00255,2026-01-13,P0042,Thermometer,94.9,c
+R00256,2026-01-13,P0050,Pulse Oximeter,40.2,c
+R00257,2026-01-13,P0056,Heart Rate Monitor,66.9,bpm
+R00258,2026-01-14,P0006,Pulse Oximeter,64.8,c
+R00259,2026-01-14,P0008,Heart Rate Monitor,70.9,bpm
+R00260,2026-01-14,P0011,Blood Pressure Cuff,54.7,c
+R00261,2026-01-14,P0013,Heart Rate Monitor,92.0,bpm
+R00262,2026-01-14,P0014,Blood Pressure Cuff,49.7,c
+R00263,2026-01-14,P0016,Heart Rate Monitor,76.2,bpm
+R00264,2026-01-14,P0020,Heart Rate Monitor,68.1,bpm
+R00265,2026-01-14,P0024,Thermometer,54.5,c
+R00266,2026-01-14,P0032,Heart Rate Monitor,97.4,bpm
+R00267,2026-01-14,P0034,Pulse Oximeter,64.7,c
+R00268,2026-01-14,P0037,Pulse Oximeter,53.4,c
+R00269,2026-01-14,P0038,Blood Pressure Cuff,49.0,c
+R00270,2026-01-14,P0039,Thermometer,52.6,c
+R00271,2026-01-14,P0040,Thermometer,42.8,c
+R00272,2026-01-14,P0042,Heart Rate Monitor,81.9,bpm
+R00273,2026-01-14,P0047,Blood Pressure Cuff,41.6,c
+R00274,2026-01-14,P0052,Heart Rate Monitor,85.1,bpm
+R00275,2026-01-14,P0053,Heart Rate Monitor,42.5,bpm
+R00276,2026-01-14,P0054,Pulse Oximeter,66.0,c
+R00277,2026-01-14,P0055,Blood Pressure Cuff,68.7,c
+R00278,2026-01-14,P0057,Blood Pressure Cuff,54.7,c
+R00279,2026-01-14,P0058,Heart Rate Monitor,62.0,bpm
