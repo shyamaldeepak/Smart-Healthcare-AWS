@@ -42,7 +42,10 @@ The solution models a smart-hospital analytics pipeline on AWS Free Tier service
 ```bash
 python scripts/generate_synthetic_healthcare_data.py
 python scripts/analytics_demo.py
+python scripts/validate_outputs.py
 ```
+
+The committed sample data and the validation script are aligned, so the project can be reviewed without additional setup.
 
 ## Submission Checklist
 
