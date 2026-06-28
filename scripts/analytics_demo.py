@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import csv
+import argparse
 import json
 from pathlib import Path
 
@@ -13,8 +14,15 @@ def load_csv(path: Path):
         return list(csv.DictReader(handle))
 
 
+def build_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--root", type=Path, default=None, help="Repository root containing the generated data folder")
+    return parser
+
+
 def main() -> None:
-    root = Path(__file__).resolve().parents[1]
+    args = build_parser().parse_args()
+    root = args.root or Path(__file__).resolve().parents[1]
     department_kpis = load_csv(root / "data" / "gold" / "department_kpis.csv")
     daily_wait_stats = json.loads((root / "data" / "gold" / "daily_wait_stats.json").read_text(encoding="utf-8"))
 

@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import csv
+import argparse
 import json
 import random
 from collections import defaultdict
@@ -160,14 +161,25 @@ def write_json(path: Path, rows) -> None:
         json.dump(rows, handle, indent=2)
 
 
+def build_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--seed", type=int, default=7, help="Seed for patient generation")
+    parser.add_argument("--patients", type=int, default=60, help="Number of synthetic patients to create")
+    parser.add_argument("--days", type=int, default=14, help="Number of days to simulate")
+    parser.add_argument("--output-root", type=Path, default=None, help="Optional output root directory")
+    return parser
+
+
 def main() -> None:
-    root = Path(__file__).resolve().parents[1]
+    args = build_parser().parse_args()
+
+    root = args.output_root or Path(__file__).resolve().parents[1]
     paths = Paths(root=root)
     ensure_directories(paths)
 
-    patients = generate_patients(seed=7, patient_count=60)
-    events = generate_events(seed=21, patients=patients, days=14)
-    readings = generate_device_readings(seed=84, patients=patients, days=14)
+    patients = generate_patients(seed=args.seed, patient_count=args.patients)
+    events = generate_events(seed=args.seed * 3, patients=patients, days=args.days)
+    readings = generate_device_readings(seed=args.seed * 12, patients=patients, days=args.days)
     kpis, date_stats = aggregate_metrics(events)
 
     write_csv(paths.raw / "patients.csv", patients)
