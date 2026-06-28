@@ -21,6 +21,7 @@ The solution models a smart-hospital analytics pipeline on AWS Free Tier service
 - [Sample Insights](docs/sample-insights.md)
 - [Technical Report](docs/technical-report.md)
 - [Optional AI Extension](docs/ai-extension.md)
+- [Presentation Notes](docs/presentation-notes.md)
 - [Synthetic Data Generator](scripts/generate_synthetic_healthcare_data.py)
 - [Glue ETL Job](glue_jobs/healthcare_etl_job.py)
 - [Athena Queries](sql/athena_queries.sql)
