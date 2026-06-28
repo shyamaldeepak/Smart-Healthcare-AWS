@@ -16,6 +16,7 @@ The generated proof-of-concept data includes:
 | Average occupancy | 69.27% |
 | Maximum wait time | 180 minutes |
 | Highest-volume department | Outpatient and Radiology |
+| Alert threshold | 90 minutes |
 
 ## Department View
 
@@ -39,3 +40,5 @@ The generated proof-of-concept data includes:
 The sample data suggests that outpatient and radiology services carry the highest volume and also the longest average wait times. Emergency has the highest average occupancy, which makes it the most constrained service line in the snapshot.
 
 These signals are good candidates for alerting logic in the dashboard and for follow-up forecasting in a later AI extension.
+
+Departments at or above the 90-minute threshold should appear in red or amber tiles so that operational staff can focus on the longest queues first.
