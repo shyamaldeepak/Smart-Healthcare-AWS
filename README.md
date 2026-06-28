@@ -31,3 +31,18 @@ The solution models a smart-hospital analytics pipeline on AWS Free Tier service
 4. Register the Glue Data Catalog tables.
 5. Query the curated datasets in Athena.
 6. Present the dashboard metrics and findings.
+
+## Local Quickstart
+
+```bash
+python scripts/generate_synthetic_healthcare_data.py
+python scripts/analytics_demo.py
+```
+
+## Submission Checklist
+
+- architecture diagram
+- implementation guide
+- demo script or notebook
+- dashboard summary
+- technical report
