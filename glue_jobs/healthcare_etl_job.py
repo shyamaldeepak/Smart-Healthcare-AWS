@@ -22,6 +22,7 @@ args = getResolvedOptions(
 sc = SparkContext()
 glue_context = GlueContext(sc)
 spark = glue_context.spark_session
+spark.conf.set("spark.sql.session.timeZone", "UTC")
 job = Job(glue_context)
 job.init(args["JOB_NAME"], args)
 
@@ -41,6 +42,7 @@ clean_events = (
         F.col("heart_rate").cast("int"),
     )
     .dropna(subset=["event_id", "event_date", "patient_id"])
+    .dropDuplicates(["event_id"])
 )
 
 department_kpis = (
