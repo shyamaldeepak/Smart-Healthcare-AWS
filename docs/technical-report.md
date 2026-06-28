@@ -14,6 +14,16 @@ The design follows a bronze-silver-gold data lake pattern:
 
 AWS Glue handles ingestion, schema management, and ETL. Athena provides serverless SQL access to the curated datasets. QuickSight or OpenSearch Dashboards can visualize the results.
 
+## 2.1 Rubric Alignment
+
+| Criterion | How the POC Addresses It |
+| --- | --- |
+| Technical design | Bronze-silver-gold architecture with serverless services |
+| Implementation | Working generator, ETL script, and Athena SQL examples |
+| Analytics and AI | Operational KPI analysis and a foundation for anomaly detection |
+| Documentation | Architecture, implementation, dashboard, and report artifacts |
+| Collaboration | Modular layout that supports division of work by artifact |
+
 ## 3. Data Strategy
 
 The project uses synthetic data only. This keeps the POC privacy-safe while still allowing realistic operational patterns:
